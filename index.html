@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+		<title>Space Shooter</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<canvas id="background" width="1250" height="655">
+		</canvas>
+		<canvas id="main" width="1250" height="655">
+		</canvas>
+		<canvas id="ship" width="1250" height="655">
+		</canvas>
+		<div class="score">SCORE: <span id="score"></span></div>
+		<div class="game-over" id="game-over">jeu terminé<p><span onclick="game.restart()">Rejouer</span></p></div>
+		<div class="loading" id="loading">CHARGEMENT...<p>Attendez SVP</p></div>
+		<script src="js/main.js"></script>
+	</body>
+</html>
